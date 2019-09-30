@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "@material-ui/core": "^4.4.1",
+    "chart.js": "^2.8.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "0.9.x"
