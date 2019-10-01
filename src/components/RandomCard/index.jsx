@@ -20,14 +20,10 @@ const useStyles = makeStyles(theme => ({
   paper: {
     padding: theme.spacing(1.5),
     textAlign: 'center',
-    color: theme.palette.text.secondary,
+    color: '#212121',
   },
   divider: {
     margin: `30px 30px 30px ${theme.spacing(5)}px`,
-  },
-  text: {
-    textAlign: 'center',
-    verticalAlign: 'baseline',
   },
 }));
 
@@ -57,7 +53,7 @@ export default function RandomCard() {
         <div className={styles["flip-card"]}>
           <div className={styles["flip-card-inner"]}>
             <div className={styles["flip-card-front"]}>
-              <h1 style={{verticalAlign: 'baseline'}}>ArmAeng</h1>
+              <h1 className={styles["text-vertical-middle"]}>ArmAeng</h1>
             </div>
             <div className={styles["flip-card-back"]}>
               <h1 className={styles["text-padding-left"]}>
@@ -111,8 +107,10 @@ export default function RandomCard() {
         alignItems="center"
         spacing={3}
       >
-        <Grid item xs={3}>
-          <Paper className={classes.paper}>Card Number : {number} || Card Name : {separateCardName(number)}</Paper>
+        <Grid item xs={6}>
+          <Paper className={classes.paper}>
+            Card Number : {number} || Card Name : {separateCardName(number)}
+          </Paper>
         </Grid>
       </Grid>
     </div >

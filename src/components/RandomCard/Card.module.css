@@ -8,6 +8,11 @@
     text-align: right;
 }
 
+.text-vertical-middle {
+    padding: 100px 10px 0px 10px;
+    text-align: center;
+}
+
 .flip-card {
     background-color: transparent;
     width: 200px;
@@ -40,11 +45,11 @@
 
 .flip-card-front {
     background-color: #2980b9;
-    color: white;
+    color: #e1f5fe;
 }
 
 .flip-card-back {
-    background-color: #2980b9;
-    color: white;
+    background-color: #e1f5fe;
+    color: #212121;
     transform: rotateY(180deg);
 }
