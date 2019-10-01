@@ -1,8 +1,19 @@
+.text-padding-left {
+    padding: 10px 10px 10px 30px;
+    text-align: left;
+}
+
+.text-padding-right {
+    padding: 10px 30px 10px 10px;
+    text-align: right;
+}
+
 .flip-card {
     background-color: transparent;
-    width: 300px;
+    width: 200px;
     height: 300px;
     perspective: 1000px;
+    padding: 50px 50px 50px 50px;
 }
 
 .flip-card-inner {
@@ -28,8 +39,8 @@
 }
 
 .flip-card-front {
-    background-color: #bbb;
-    color: black;
+    background-color: #2980b9;
+    color: white;
 }
 
 .flip-card-back {
